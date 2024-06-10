@@ -6,6 +6,7 @@ import PlusIcon from "../UI/Icons/PlusIcon.jsx";
 import CounterOutput from "./CounterOutput.jsx";
 import { log } from "../../log.js";
 
+
 function isPrime(number) {
   log("Calculating if is prime number", 2, "other");
   if (number <= 1) {
